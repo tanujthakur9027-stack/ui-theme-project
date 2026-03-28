@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+/* HERO */
+.hero {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #ff9a9e, #a18cd1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+#typing {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.cassette {
+  width: 150px;
+  margin: 20px;
+  animation: float 2s infinite alternate;
+}
+
+@keyframes float {
+  from { transform: translateY(0); }
+  to { transform: translateY(-20px); }
+}
+
+/* BUTTON */
+.hero button {
+  padding: 12px 25px;
+  border-radius: 25px;
+  background: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* POPUP */
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0,0,0,0.5);
+}
+
+.popup-box {
+  background: rgba(255,255,255,0.3);
+  backdrop-filter: blur(10px);
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+  color: white;
+}
+
+.pinky {
+  width: 120px;
+}
+
+/* BUTTONS */
+.buttons button {
+  margin: 5px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+}
+
+.yes { background: #00ffcc; }
+.no { background: #ff4d6d; color: white; }
+
+/* CARDS */
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 100px 20px;
+  background: linear-gradient(135deg, #ff9a9e, #a18cd1);
+  flex-wrap: wrap;
+}
+
+.card {
+  background: rgba(255,255,255,0.6);
+  padding: 25px;
+  border-radius: 20px;
+  width: 220px;
+  text-align: center;
+}
