@@ -9,4 +9,4 @@ An interactive UI experience built using HTML, CSS, and JavaScript.
 - Smooth UI transitions
 
 ## Live Demo
-[Click here]https://ui-theme-project.netlify.app/
+[Click here]https://tanujthakur9027-stack.github.io/ui-theme-project/
